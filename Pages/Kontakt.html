@@ -14,7 +14,29 @@
                     <li><a href="Laborationer.html">    Labbrapporter</a>  </li>
                     <li><a href="Laboration.html#Onlinetjänster">Använda onlinetjänster </a></li>
             </ul>
-            
+            <form method="POST" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                <fieldset>
+                    <legend>Fråga</legend>
+                Namn:<input type="text" name="namn">
+                Rubrik:<input type="text" name="Rubrik">
+                Fråga:<textarea rows="5" cols="30"></textarea>
+                </fieldset>
+                <fieldset>
+                <Legend>Var god välj</Legend>
+                <input type="radio" name="gr1"> Pepsi
+                <input type="radio" name="gr1"> Coca-Cola
+                <input type="radio" name="gr1"> Inget av det
+                
+                Föregående fråga tyckte ni var:<select name="Fråga">
+                    <option value="Dummaste jag varit med om">Dummaste jag varit med om</option>
+                    <option value="N/A" selected>N/A</option>
+                    <option value="Ganska relevant ändå">Ganska relevant ändå</option>
+                    <option value="HÖGST relevant frågeställning, bra fokus!">HÖGST relevant frågeställning, bra fokus!</option>
+                
+                </select>
+                </fieldset>
+                <input type="submit" Value="Skicka!">
+            </form>
             <h3>Kontaktinformation:</h3> 
             
             <p> Sebastian Gårdhed<br>
