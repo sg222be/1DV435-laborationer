@@ -17,26 +17,51 @@
 }
 #Container {max-width:1200px;
             margin: auto;
+            height:1529px;
             position:relative;
             background:white;
-            border: 1px solid;
-        }
-#Top    {background:white;
-         border: 1px solid;
-         
-
+            
+           
+            
+            
+  }
+        
+#Top    {background:none;
+        
+       
+       
         }
 #Hello {float:right;
         Width:250px;
-        
+      
         }
+#Kontrollrummet{float:right;
+
+}
+
 #Content {  margin-left:210px;
-            width:700;
-            
+            width:700px;
+            padding-left:100px;
+            padding-right:100px;
             border: 1px solid;
+            height:1318px;
                 
         
         }
+        
+#Meny    li a{background-color: yellow;
+            text-decoration: None;
+            padding:-10px;
+            display: block;
+        
+            }
+
+#Blogg {background-image: url(pics/häftstift.jpg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        
+Body {background-image: url(pics/kontrollrum.jpg);}
+
 
 /*Typagrafi*/
 
@@ -54,11 +79,15 @@ li {list-style-type: none;
     
 
 
-#Meny   li a{background-color: yellow;
-            text-decoration: None;
-            padding:-10px;
-            display: block;
-            }
-        li a:hover{color:#9c9;
-                   background-color: #EFE;
 
+h1 {text-decoration:Underline;
+    letter-spacing:0.5px;}
+h2 {text-decoration:Underline;
+    letter-spacing:0.5px;}
+h3 {text-decoration:Underline;
+    letter-spacing:0.5px;}
+h4 {text-decoration:Underline;
+    letter-spacing:0.5px;}
+h5 {text-decoration:Underline;
+    letter-spacing:0.5px;}
+    
