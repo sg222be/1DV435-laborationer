@@ -1,5 +1,64 @@
+/*Layout */
+
+#Meny { 
+        float:left;
+        width:200px;
+        margin-top:5px;
+       
+        
+        
+       
+        
+        }
+#Footer {   margin-left:210px;
+            border: 1px solid;
+            background:purple;
+            
+}
+#Container {max-width:1200px;
+            margin: auto;
+            position:relative;
+            background:white;
+            border: 1px solid;
+        }
+#Top    {background:white;
+         border: 1px solid;
+         
+
+        }
+#Hello {float:right;
+        Width:250px;
+        
+        }
+#Content {  margin-left:210px;
+            width:700;
+            
+            border: 1px solid;
+                
+        
+        }
+
+/*Typagrafi*/
+
 a:link {color:blue;}
 a:visited {color:purple;}
 a:focus {color:red;}
 a:hover {color:silver;}
-a:active {color:Black;}
+a:active {color:Orange;}
+
+li {list-style-type: none;
+    border-bottom: 2px solid white;
+}
+
+
+    
+
+
+#Meny   li a{background-color: yellow;
+            text-decoration: None;
+            padding:-10px;
+            display: block;
+            }
+        li a:hover{color:#9c9;
+                   background-color: #EFE;
+

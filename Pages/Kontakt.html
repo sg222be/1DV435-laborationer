@@ -3,54 +3,70 @@
         <head>
             <meta charset="utf-8">
             <title>Kontaktuppgifter</title>
-            
+            <link rel="stylesheet" href="../css/style.css">
         </head>
              
         <body>
-            <div id="content">
-            <div id="meny">
-            <ul> 
-                    <li><a href="../index.html">         Startsida</a>       </li>
-                    <li><a href="presentation.html">  Om mig </a></li>
-                    <li>Kontakt </li>
-                    <li><a href="Laborationer.html">    Labbrapporter</a>  </li>
-                    <li><a href="Laborationer.html#Onlinetjänster">Använda onlinetjänster </a></li>
+            <div id="Container">
+                <div id="Top">
+                <div id="logga"><img src="../pics/Logga.png" alt="Sebbes Labbportals logga" width="400" height="150"></div>
+                </div>
+                <div id="Meny">
+                
+                <ul> 
                     
-            </ul>
-            </div>
-            <div id="formulär">
-            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" >
-                <fieldset>
-                    <legend>Fråga</legend>
-                Namn:<input type="text" name="namn">
-                Rubrik:<input type="text" name="Rubrik">
-                Fråga:<textarea rows="5" cols="30"></textarea>
-                </fieldset>
-                <fieldset>
-                <Legend>Var god välj</Legend>
-                <input type="radio" name="gr1"> Pepsi
-                <input type="radio" name="gr1"> Coca-Cola
-                <input type="radio" name="gr1"> Inget av det
+                        <li><a href="../index.html">         Startsida</a>       </li>
+                        <li><a href="presentation.html">  Om mig </a></li>
+                        <li><a href="Kontakt.html"class="active">Kontakt </li>
+                        <li><a href="Laborationer.html">    Labbrapporter</a>  </li>
+                        
+                        
+                </ul>
                 
-                    Föregående fråga tyckte ni var:<select name="Fråga">
-                    <option value="Dummaste jag varit med om">Dummaste jag varit med om</option>
-                    <option value="N/A" selected>N/A</option>
-                    <option value="Ganska relevant ändå">Ganska relevant ändå</option>
-                    <option value="HÖGST relevant frågeställning, bra fokus!">HÖGST relevant frågeställning, bra fokus!</option>
+                </div>
+                <div id="Content">
                 
-                </select>
-                </fieldset>
-                <input type="submit" Value="Skicka!">
-            </form>
-            </div>
-            <div id="kontaktinformation">
-            <h3>Kontaktinformation:</h3> 
-            
-            <p> Sebastian Gårdhed<br>
-                sg222be
-                <br>LNU Kalmar<br>
-            </p>
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" >
+                    <fieldset>
+                        <legend>Fråga</legend>
+                    <p>Namn:<input type="text" name="namn"></p>
+                    <p>Rubrik:<input type="text" name="Rubrik"></p>
+                    <p>Fråga:<textarea rows="5" cols="30"></textarea></p>
+                    </fieldset>
+                    <fieldset>
+                    <Legend>Var god välj</Legend></p>
+                    <p><input type="radio" name="gr1"> Pepsi</p>
+                    <p><input type="radio" name="gr1"> Coca-Cola</p>
+                    <p><input type="radio" name="gr1"> Inget av det</p>
+                    
+                       <p> Föregående fråga tyckte ni var:<select name="Fråga"></p>
+                        <option value="Dummaste jag varit med om">Dummaste jag varit med om</option>
+                        <option value="N/A" selected>N/A</option>
+                        <option value="Ganska relevant ändå">Ganska relevant ändå</option>
+                        <option value="HÖGST relevant frågeställning, bra fokus!">HÖGST relevant frågeställning, bra fokus!</option>
+                    
+                    </select>
+                    </fieldset>
+                    <input type="submit" Value="Skicka!">
+                </form>
+                
+                
+                <h3>Kontaktinformation:</h3> 
+                
+                <p> Sebastian Gårdhed<br>
+                    sg222be
+                    <br>LNU Kalmar<br>
+                </p>
+                    
+                </div>
+                    <div id="Footer">
+                        <P>
+                            Anvsarig utgivare: Sebastian Gårdhed, LNU
+                        </P>    
+                
+                    </div>
+              
             </div>    
-            </div>    
-            </body>
+        </body>
+                
 </html>
