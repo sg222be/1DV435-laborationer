@@ -1,0 +1,9 @@
+#Meny {display:none;}
+#Body {display:none;}
+
+
+#Content a:after {content:"("attr(href)")";}
+#Content {border:2px solid black;
+          
+          }
+#Footer {border:2px solid black;}

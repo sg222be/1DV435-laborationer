@@ -53,13 +53,16 @@
             text-decoration: None;
             padding:-10px;
             display: block;
-        
+            
             }
 
-#Blogg {background-image: url(pics/häftstift.jpg);
+.Blogg {background-image: url(pics/);
         background-repeat: no-repeat;
         background-position: top left;
+        
 }
+#Meny ul li a.nuvarande {background-color:green;}
+
 Body {background-image: url(pics/kontrollrum.jpg);}
 
 
@@ -68,12 +71,13 @@ Body {background-image: url(pics/kontrollrum.jpg);}
 a:link {color:blue;}
 a:visited {color:purple;}
 a:focus {color:red;}
-a:hover {color:silver;}
+#Meny a:hover {color:silver;background-color:red;}
 a:active {color:Orange;}
 
 li {list-style-type: none;
     border-bottom: 2px solid white;
 }
+
 
 
     
