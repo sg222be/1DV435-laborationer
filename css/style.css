@@ -4,12 +4,30 @@
         float:left;
         width:200px;
         margin-top:5px;
+       text-indent:29px;
+       }
        
-        
-        
-       
-        
-        }
+.socialicon {width:150px;
+            height:24px;
+            background-repeat:no-repeat;
+            background-image: url("pics/sprite.png")
+            
+            }
+.socialicon span {display:none;}
+
+#homeicon   {background-position: 0 -48px }
+#homeicon:hover   {background-position: 0 0 }
+
+#personicon {background-position: 0 -240px}   
+#personicon:hover {background-position: 0 -192px}
+
+#lettericon {background-position: 0 -336px}   
+#lettericon:hover {background-position:0 -288px}
+
+#hammericon {background-position: 0 -144px}
+#hammericon:hover {background-position: 0 -96px}
+
+
 #Footer {   margin-left:210px;
             border: 1px solid;
             background:purple;
@@ -49,7 +67,7 @@
         
         }
         
-#Meny    li a{background-color: yellow;
+#Meny    li a{
             text-decoration: None;
             padding:-10px;
             display: block;
