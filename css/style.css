@@ -11,8 +11,14 @@
             height:24px;
             background-repeat:no-repeat;
             background-image: url("pics/sprite.png")
-            
             }
+            
+.socialiconN {width:150px;
+            height:24px;
+            background-repeat:no-repeat;
+            background-image: url("pics/sprite.png")
+            }
+            
 .socialicon span {display:none;}
 
 #homeicon   {background-position: 0 -48px }
@@ -79,7 +85,7 @@
         background-position: top left;
         
 }
-#Meny ul li a.nuvarande {background-color:green;}
+#Meny ul li a.socialiconN {background-color:silver;}
 
 Body {background-image: url(pics/kontrollrum.jpg);}
 
