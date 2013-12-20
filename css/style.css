@@ -6,7 +6,9 @@
         margin-top:5px;
        text-indent:29px;
        }
-       
+
+.hidden {display:none;}
+.show {display:block;}
 .socialicon {width:150px;
             height:24px;
             background-repeat:no-repeat;
@@ -55,7 +57,7 @@
        
        
         }
-#Hello {float:right;
+#HelloImage {float:right;
         Width:250px;
       
         }
@@ -119,3 +121,5 @@ h4 {text-decoration:Underline;
 h5 {text-decoration:Underline;
     letter-spacing:0.5px;}
     
+/*Konverteraren*/
+
